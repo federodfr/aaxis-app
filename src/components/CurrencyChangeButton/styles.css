@@ -1,0 +1,8 @@
+.button-change {
+    border: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    background-color: #333;
+    color: #fff
+}

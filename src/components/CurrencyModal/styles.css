@@ -1,0 +1,91 @@
+.darkBG {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .modal {
+    width: 500px;
+    height: 500px;
+    background: white;
+    color: white;
+    z-index: 10;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+    padding: 16px;
+    overflow:scroll;
+    overflow-x: hidden;
+  }
+  
+  .modal-header {
+    height: 50px;
+    min-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    color: black;
+  }
+
+  .modal-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .button-close {
+    border: none;
+    background: none;
+  }
+
+  .button-close:hover {
+    cursor: pointer;
+  }
+
+  .heading {
+    margin: 0;
+    padding: 10px;
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .modal-container {
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    color: #2c3e50;
+    text-align: center;
+  }
+
+  .currency-selector {
+    border: none;
+    background: none;
+    font-size: 24px;
+    padding: 5px 0;
+    border-bottom: 1px solid #666666
+
+  }
+
+  .modal::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  @media (max-width: 768px) {
+    .modal {
+      width: 100vw;
+    }
+  }

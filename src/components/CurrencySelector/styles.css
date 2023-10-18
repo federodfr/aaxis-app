@@ -1,0 +1,21 @@
+.button-selector {
+    border: none;
+    background-color: #bbbbbb;
+    displaY: flex;
+    align-items: center;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    font-size: 32px;
+    padding: 10px;
+    padding-left: 16px;
+}
+
+.button-selector:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .button-selector {
+      width: 50%;
+    }
+  }
